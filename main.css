@@ -1,16 +1,26 @@
 body {
     font-family: 'Roboto Mono',monospace;
-    min-height: 400px;
-    background-color: #000000;
-    background-size: 80vh;
-    background-position: center bottom;
+    background-color: black;
+    background-size: 100%;
+    background-image: url(img/fundo2.jpg);
+    background-position: center;
     background-repeat: no-repeat;
   }
 
   .container {
     text-align: center;
-    padding: 20px;
+    padding: 50px;
     height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+  .container{
+    height: 30em;
+    position: relative 
+
   }
 
   .page-title {
